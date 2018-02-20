@@ -1,0 +1,425 @@
+10:36:51 **** Build of project vita_passthrough_bsp_1 ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/cfa_v7_1/src"
+make -C ps7_cortexa9_0/libsrc/cfa_v7_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/common_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/fmc_iic_sw_v2_03_a/src"
+make -C ps7_cortexa9_0/libsrc/fmc_iic_sw_v2_03_a/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/fmc_imageon_sw_v2_01_a/src"
+make -C ps7_cortexa9_0/libsrc/fmc_imageon_sw_v2_01_a/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/fmc_imageon_vita_receiver_v2_01_a/src"
+make -C ps7_cortexa9_0/libsrc/fmc_imageon_vita_receiver_v2_01_a/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/iic_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/iic_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_5/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/vtc_v7_2/src"
+make -C ps7_cortexa9_0/libsrc/vtc_v7_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/cfa_v7_1/src"
+make -C ps7_cortexa9_0/libsrc/cfa_v7_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling cfa"
+"Running Make libs in ps7_cortexa9_0/libsrc/common_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling common"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/fmc_iic_sw_v2_03_a/src"
+make -C ps7_cortexa9_0/libsrc/fmc_iic_sw_v2_03_a/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling fmc_iic_sw"
+fmc_iic_axi.c:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from fmc_iic_axi.c:61:0:
+fmc_iic.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from fmc_iic.h:57:0,
+                 from fmc_iic_axi.c:61:
+../../../include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../../include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+fmc_iic_axi.c: In function 'fmc_iic_axi_IicRead':
+fmc_iic_axi.c:299:11: warning: unused variable 'TestStatus' [-Wunused-variable]
+   XStatus TestStatus=XST_FAILURE;
+           ^~~~~~~~~~
+fmc_iic_axi.c: In function 'fmc_iic_axi_IicERead':
+fmc_iic_axi.c:432:11: warning: unused variable 'TestStatus' [-Wunused-variable]
+   XStatus TestStatus=XST_FAILURE;
+           ^~~~~~~~~~
+fmc_iic_sg.c:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from fmc_iic_sg.c:61:0:
+fmc_iic.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from fmc_iic.h:57:0,
+                 from fmc_iic_sg.c:61:
+../../../include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../../include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+arm-none-eabi-ar: unable to rename '../../../lib/libxil.a'; reason: File exists
+make[1]: *** [libs] Fel 1
+make: *** [ps7_cortexa9_0/libsrc/fmc_iic_sw_v2_03_a/src/make.libs] Fel 2
+"Running Make libs in ps7_cortexa9_0/libsrc/fmc_imageon_sw_v2_01_a/src"
+make -C ps7_cortexa9_0/libsrc/fmc_imageon_sw_v2_01_a/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling fmc_imageon_sw"
+fmc_imageon.c:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from fmc_imageon.c:76:0:
+../../../include/fmc_iic.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../../../include/fmc_iic.h:57:0,
+                 from fmc_imageon.c:76:
+../../../include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../../include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+In file included from fmc_imageon.c:77:0:
+fmc_imageon.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+fmc_imageon.c: In function 'fmc_imageon_init':
+fmc_imageon.c:99:11: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+    Xuint8 num_bytes;
+           ^~~~~~~~~
+fmc_imageon.c: In function 'fmc_imageon_iic_mux':
+fmc_imageon.c:208:11: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+    Xuint8 num_bytes;
+           ^~~~~~~~~
+fmc_imageon.c: In function 'fmc_imageon_iic_config2':
+fmc_imageon.c:277:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for ( i = 0; i < ConfigLength; i++ )
+                   ^
+fmc_imageon.c:274:11: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+    Xuint8 num_bytes;
+           ^~~~~~~~~
+fmc_imageon.c: In function 'fmc_imageon_iic_config3':
+fmc_imageon.c:302:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for ( i = 0; i < ConfigLength; i++ )
+                   ^
+fmc_imageon.c:299:11: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+    Xuint8 num_bytes;
+           ^~~~~~~~~
+fmc_imageon.c: At top level:
+fmc_imageon.c:316:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+fmc_imageon.c:316:1: note: (near initialization for 'iic_cdce913')
+fmc_imageon.c:401:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+fmc_imageon.c:401:1: note: (near initialization for 'iic_cdce913_y1_config_25_175_000')
+fmc_imageon.c:428:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+fmc_imageon.c:428:1: note: (near initialization for 'iic_cdce913_y1_config_27_000_000')
+fmc_imageon.c:456:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+fmc_imageon.c:456:1: note: (near initialization for 'iic_cdce913_y1_config_40_000_000')
+fmc_imageon.c:483:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+fmc_imageon.c:483:1: note: (near initialization for 'iic_cdce913_y1_config_65_000_000')
+fmc_imageon.c:510:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+fmc_imageon.c:510:1: note: (near initialization for 'iic_cdce913_y1_config_74_250_000')
+fmc_imageon.c:537:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+fmc_imageon.c:537:1: note: (near initialization for 'iic_cdce913_y1_config_110_000_000')
+fmc_imageon.c:564:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+fmc_imageon.c:564:1: note: (near initialization for 'iic_cdce913_y1_config_148_500_000')
+fmc_imageon.c:591:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+fmc_imageon.c:591:1: note: (near initialization for 'iic_cdce913_y1_config_162_000_000')
+fmc_imageon.c: In function 'fmc_imageon_vclk_init':
+fmc_imageon.c:624:11: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+    Xuint8 num_bytes;
+           ^~~~~~~~~
+fmc_imageon.c:623:11: warning: unused variable 'xdata' [-Wunused-variable]
+    Xuint8 xdata;
+           ^~~~~
+fmc_imageon.c:622:8: warning: unused variable 'dev' [-Wunused-variable]
+    int dev;
+        ^~~
+fmc_imageon.c: In function 'fmc_imageon_vclk_config':
+fmc_imageon.c:659:11: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+    Xuint8 num_bytes;
+           ^~~~~~~~~
+fmc_imageon.c:658:8: warning: unused variable 'dev' [-Wunused-variable]
+    int dev;
+        ^~~
+fmc_imageon.c: At top level:
+fmc_imageon.c:731:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+fmc_imageon.c:731:1: note: (near initialization for 'iic_hdmi_in_reset')
+fmc_imageon.c:737:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+fmc_imageon.c:737:1: note: (near initialization for 'iic_hdmi_in_mapping')
+fmc_imageon.c:750:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+fmc_imageon.c:750:1: note: (near initialization for 'iic_hdmi_in_edid_pre')
+fmc_imageon.c:755:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+fmc_imageon.c:755:1: note: (near initialization for 'iic_hdmi_in_edid_post')
+fmc_imageon.c:765:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+fmc_imageon.c:765:1: note: (near initialization for 'iic_hdmi_in_config')
+fmc_imageon.c:817:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+fmc_imageon.c:817:1: note: (near initialization for 'iic_hdmi_in_spdif_config')
+fmc_imageon.c: In function 'fmc_imageon_hdmii_init':
+fmc_imageon.c:857:12: warning: unused variable 'reg' [-Wunused-variable]
+    Xuint32 reg;
+            ^~~
+fmc_imageon.c:856:11: warning: unused variable 'num_bytes' [-Wunused-variable]
+    Xuint8 num_bytes;
+           ^~~~~~~~~
+fmc_imageon.c:855:11: warning: unused variable 'i2c_data' [-Wunused-variable]
+    Xuint8 i2c_data;
+           ^~~~~~~~
+fmc_imageon.c:854:11: warning: unused variable 'i2c_address' [-Wunused-variable]
+    Xuint8 i2c_address;
+           ^~~~~~~~~~~
+fmc_imageon.c: In function 'fmc_imageon_hdmii_set_hpd':
+fmc_imageon.c:932:11: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+    Xuint8 num_bytes;
+           ^~~~~~~~~
+fmc_imageon.c: In function 'fmc_imageon_hdmii_set_rst':
+fmc_imageon.c:965:11: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+    Xuint8 num_bytes;
+           ^~~~~~~~~
+fmc_imageon.c: In function 'fmc_imageon_hdmii_get_int':
+fmc_imageon.c:998:11: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+    Xuint8 num_bytes;
+           ^~~~~~~~~
+fmc_imageon.c: In function 'fmc_imageon_hdmii_get_lock':
+fmc_imageon.c:1021:11: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+    Xuint8 num_bytes;
+           ^~~~~~~~~
+fmc_imageon.c: In function 'fmc_imageon_hdmii_get_timing':
+fmc_imageon.c:1063:12: warning: variable 'Field1TotalHeight' set but not used [-Wunused-but-set-variable]
+    Xuint32 Field1TotalHeight;
+            ^~~~~~~~~~~~~~~~~
+fmc_imageon.c:1062:12: warning: variable 'Field1BackPorch' set but not used [-Wunused-but-set-variable]
+    Xuint32 Field1BackPorch;
+            ^~~~~~~~~~~~~~~
+fmc_imageon.c:1061:12: warning: variable 'Field1SyncWidth' set but not used [-Wunused-but-set-variable]
+    Xuint32 Field1SyncWidth;
+            ^~~~~~~~~~~~~~~
+fmc_imageon.c:1060:12: warning: variable 'Field1FrontPorch' set but not used [-Wunused-but-set-variable]
+    Xuint32 Field1FrontPorch;
+            ^~~~~~~~~~~~~~~~
+fmc_imageon.c:1059:12: warning: variable 'Field1Height' set but not used [-Wunused-but-set-variable]
+    Xuint32 Field1Height;
+            ^~~~~~~~~~~~
+fmc_imageon.c:1058:12: warning: variable 'Field0TotalHeight' set but not used [-Wunused-but-set-variable]
+    Xuint32 Field0TotalHeight;
+            ^~~~~~~~~~~~~~~~~
+fmc_imageon.c:1053:12: warning: variable 'TotalLineWidth' set but not used [-Wunused-but-set-variable]
+    Xuint32 TotalLineWidth;
+            ^~~~~~~~~~~~~~
+fmc_imageon.c:1042:11: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+    Xuint8 num_bytes;
+           ^~~~~~~~~
+fmc_imageon.c: At top level:
+fmc_imageon.c:1134:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+fmc_imageon.c:1134:1: note: (near initialization for 'iic_hdmi_out_config')
+fmc_imageon.c:1222:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+fmc_imageon.c:1222:1: note: (near initialization for 'iic_hdmi_out_embedded_sync_config')
+fmc_imageon.c: In function 'fmc_imageon_hdmio_init':
+fmc_imageon.c:1280:46: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+                    if ( pContext->bVerbose ) xil_printf( "\tSetting I2C config sequence for HDMI Mode\n\r" );
+                                              ^~~~~~~~~~
+fmc_imageon.c: In function 'fmc_imageon_hdmio_set_pd':
+fmc_imageon.c:1375:11: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+    Xuint8 num_bytes;
+           ^~~~~~~~~
+fmc_imageon.c: In function 'fmc_imageon_hdmio_get_hpd':
+fmc_imageon.c:1408:11: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+    Xuint8 num_bytes;
+           ^~~~~~~~~
+fmc_imageon.c: In function 'fmc_imageon_hdmii_init2':
+fmc_imageon.c:851:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+"Running Make libs in ps7_cortexa9_0/libsrc/fmc_imageon_vita_receiver_v2_01_a/src"
+make -C ps7_cortexa9_0/libsrc/fmc_imageon_vita_receiver_v2_01_a/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling fmc_imageon_vita_receiver"
+fmc_imageon_vita_receiver.c:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from fmc_imageon_vita_receiver.c:84:0:
+fmc_imageon_vita_receiver.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from fmc_imageon_vita_receiver.h:87:0,
+                 from fmc_imageon_vita_receiver.c:84:
+../../../include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../../include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+fmc_imageon_vita_receiver.c: In function 'fmc_imageon_vita_receiver_spi_write':
+fmc_imageon_vita_receiver.c:605:12: warning: unused variable 'uResponse' [-Wunused-variable]
+    Xuint32 uResponse;
+            ^~~~~~~~~
+fmc_imageon_vita_receiver.c: In function 'fmc_imageon_vita_receiver_spi_nop':
+fmc_imageon_vita_receiver.c:645:12: warning: unused variable 'uResponse' [-Wunused-variable]
+    Xuint32 uResponse;
+            ^~~~~~~~~
+fmc_imageon_vita_receiver.c: In function 'fmc_imageon_vita_receiver_spi_write_sequence':
+fmc_imageon_vita_receiver.c:690:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for ( i = 0; i < uLength; i++ )
+                   ^
+fmc_imageon_vita_receiver.c:713:7: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+       usleep(100); // 100 usec
+       ^~~~~~
+fmc_imageon_vita_receiver.c:688:8: warning: unused variable 'j' [-Wunused-variable]
+    int j;
+        ^
+fmc_imageon_vita_receiver.c: In function 'fmc_imageon_vita_receiver_spi_display_sequence':
+fmc_imageon_vita_receiver.c:737:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for ( i = 0; i < uLength; i++ )
+                   ^
+fmc_imageon_vita_receiver.c:735:8: warning: unused variable 'j' [-Wunused-variable]
+    int j;
+        ^
+fmc_imageon_vita_receiver.c: In function 'fmc_imageon_vita_receiver_sensor_initialize':
+fmc_imageon_vita_receiver.c:899:7: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+       sleep(1); // 1 sec (time to get clocks to lock)
+       ^~~~~
+fmc_imageon_vita_receiver.c:960:10: warning: implicit declaration of function 'millisleep' [-Wimplicit-function-declaration]
+          millisleep(100);
+          ^~~~~~~~~~
+fmc_imageon_vita_receiver.c:793:7: warning: unused variable 'i' [-Wunused-variable]
+   int i;
+       ^
+fmc_imageon_vita_receiver.c: In function 'fmc_imageon_vita_receiver_sensor_1080P60':
+fmc_imageon_vita_receiver.c:1338:15: warning: unused variable 'trigFramesPerSec' [-Wunused-variable]
+       Xuint32 trigFramesPerSec = 60;
+               ^~~~~~~~~~~~~~~~
+fmc_imageon_vita_receiver.c: In function 'fmc_imageon_vita_receiver_set_analog_gain':
+fmc_imageon_vita_receiver.c:1431:12: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+    seqData = &(vita_spi_again_values[id][0]);
+            ^
+fmc_imageon_vita_receiver.c:1437:65: warning: passing argument 2 of 'fmc_imageon_vita_receiver_spi_display_sequence' from incompatible pointer type [-Wincompatible-pointer-types]
+       fmc_imageon_vita_receiver_spi_display_sequence( pContext, seqData, seqLen );
+                                                                 ^~~~~~~
+fmc_imageon_vita_receiver.c:731:5: note: expected 'Xuint16 (*)[3] {aka short unsigned int (*)[3]}' but argument is of type 'Xuint16 ** {aka short unsigned int **}'
+ int fmc_imageon_vita_receiver_spi_display_sequence( fmc_imageon_vita_receiver_t *pContext, Xuint16 pConfig[][3], Xuint32 uLength )
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+fmc_imageon_vita_receiver.c:1439:60: warning: passing argument 2 of 'fmc_imageon_vita_receiver_spi_write_sequence' from incompatible pointer type [-Wincompatible-pointer-types]
+    fmc_imageon_vita_receiver_spi_write_sequence( pContext, seqData, seqLen );
+                                                            ^~~~~~~
+fmc_imageon_vita_receiver.c:684:5: note: expected 'Xuint16 (*)[3] {aka short unsigned int (*)[3]}' but argument is of type 'Xuint16 ** {aka short unsigned int **}'
+ int fmc_imageon_vita_receiver_spi_write_sequence( fmc_imageon_vita_receiver_t *pContext, Xuint16 pConfig[][3], Xuint32 uLength )
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+fmc_imageon_vita_receiver.c: In function 'fmc_imageon_vita_receiver_set_digital_gain':
+fmc_imageon_vita_receiver.c:1468:12: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+    seqData = &(vita_spi_dgain_values[0][0]);
+            ^
+fmc_imageon_vita_receiver.c:1474:62: warning: passing argument 2 of 'fmc_imageon_vita_receiver_spi_display_sequence' from incompatible pointer type [-Wincompatible-pointer-types]
+    fmc_imageon_vita_receiver_spi_display_sequence( pContext, seqData, seqLen );
+                                                              ^~~~~~~
+fmc_imageon_vita_receiver.c:731:5: note: expected 'Xuint16 (*)[3] {aka short unsigned int (*)[3]}' but argument is of type 'Xuint16 ** {aka short unsigned int **}'
+ int fmc_imageon_vita_receiver_spi_display_sequence( fmc_imageon_vita_receiver_t *pContext, Xuint16 pConfig[][3], Xuint32 uLength )
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+fmc_imageon_vita_receiver.c:1476:60: warning: passing argument 2 of 'fmc_imageon_vita_receiver_spi_write_sequence' from incompatible pointer type [-Wincompatible-pointer-types]
+    fmc_imageon_vita_receiver_spi_write_sequence( pContext, seqData, seqLen );
+                                                            ^~~~~~~
+fmc_imageon_vita_receiver.c:684:5: note: expected 'Xuint16 (*)[3] {aka short unsigned int (*)[3]}' but argument is of type 'Xuint16 ** {aka short unsigned int **}'
+ int fmc_imageon_vita_receiver_spi_write_sequence( fmc_imageon_vita_receiver_t *pContext, Xuint16 pConfig[][3], Xuint32 uLength )
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/iic_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling iic"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scugic"
+Command canceled
+
+10:38:38 Build Cancelled (took 1m:47s.74ms)
+

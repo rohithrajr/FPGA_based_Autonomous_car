@@ -1,0 +1,57 @@
+12:16:37 **** Incremental Build of configuration Debug for project vita_passthrough_app ****
+make all 
+make: Nothing to be done for `all'.
+12:25:36 **** Incremental Build of configuration Debug for project vita_passthrough_app ****
+make all 
+make: Nothing to be done for `all'.
+12:33:24 **** Incremental Build of configuration Debug for project vita_passthrough_app ****
+make all 
+make: Nothing to be done for `all'.
+12:33:50 **** Incremental Build of configuration Debug for project vita_passthrough_app ****
+make all 
+make: Nothing to be done for `all'.
+12:35:46 **** Incremental Build of configuration Debug for project vita_passthrough_app ****
+make all 
+make: Nothing to be done for `all'.
+12:40:13 **** Incremental Build of configuration Debug for project vita_passthrough_app ****
+make all 
+make: Nothing to be done for `all'.
+12:52:32 **** Incremental Build of configuration Debug for project vita_passthrough_app ****
+make all 
+make: Nothing to be done for `all'.
+12:53:57 **** Incremental Build of configuration Debug for project vita_passthrough_app ****
+make all 
+make: Nothing to be done for `all'.
+12:56:12 **** Incremental Build of configuration Debug for project vita_passthrough_app ****
+make all 
+make: Nothing to be done for `all'.
+12:57:55 **** Incremental Build of configuration Debug for project vita_passthrough_app ****
+make all 
+make: Nothing to be done for `all'.
+12:59:40 **** Incremental Build of configuration Debug for project vita_passthrough_app ****
+make all 
+make: Nothing to be done for `all'.
+13:00:54 **** Incremental Build of configuration Debug for project vita_passthrough_app ****
+make all 
+make: Nothing to be done for `all'.
+13:01:44 **** Incremental Build of configuration Debug for project vita_passthrough_app ****
+make all 
+make: Nothing to be done for `all'.
+13:02:29 **** Incremental Build of configuration Debug for project vita_passthrough_app ****
+make all 
+make: Nothing to be done for `all'.
+13:03:41 **** Incremental Build of configuration Debug for project vita_passthrough_app ****
+make all 
+make: Nothing to be done for `all'.
+13:04:13 **** Incremental Build of configuration Debug for project vita_passthrough_app ****
+make all 
+make: Nothing to be done for `all'.
+13:07:46 **** Incremental Build of configuration Debug for project vita_passthrough_app ****
+make all 
+make: Nothing to be done for `all'.
+14:33:43 **** Build of project vita_passthrough_bsp ****
+make -k all 
+'Finished building libraries'
+14:33:43 **** Build of configuration Debug for project vita_passthrough_app ****
+make all 
+make: Nothing to be done for `all'.

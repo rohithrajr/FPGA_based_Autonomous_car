@@ -1,0 +1,90 @@
+{
+   ExpandedHierarchyInLayout: "/fmc_imageon_vita_color|/fmc_imageon_hdmio_rgb",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 260 -defaultsOSRD
+preplace port hdmio_io -pg 1 -y 680 -defaultsOSRD
+preplace port fmc_imageon_iic -pg 1 -y 440 -defaultsOSRD
+preplace port vita_clk -pg 1 -y 730 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 280 -defaultsOSRD
+preplace port vita_io -pg 1 -y 680 -defaultsOSRD
+preplace portBus fmc_imageon_iic_rst_n -pg 1 -y 480 -defaultsOSRD
+preplace inst fmc_imageon_hdmio_rgb -pg 1 -lvl 4 -y 682 -defaultsOSRD
+preplace inst fmc_imageon_vita_color|fmc_imageon_vita_receiver_0 -pg 1 -lvl 2 -y 668 -defaultsOSRD
+preplace inst fmc_imageon_hdmio_rgb|v_tc_0 -pg 1 -lvl 3 -y 832 -defaultsOSRD
+preplace inst fmc_imageon_iic_0 -pg 1 -lvl 4 -y 460 -defaultsOSRD
+preplace inst fmc_imageon_vita_color|gnd -pg 1 -lvl 1 -y 658 -defaultsOSRD
+preplace inst fmc_imageon_hdmio_rgb|v_rgb2ycrcb_0 -pg 1 -lvl 2 -y 1032 -defaultsOSRD
+preplace inst fmc_imageon_hdmio_rgb|fmc_imageon_hdmi_out_0 -pg 1 -lvl 5 -y 1142 -defaultsOSRD
+preplace inst fmc_imageon_vita_color -pg 1 -lvl 3 -y 638 -defaultsOSRD
+preplace inst fmc_imageon_vita_color|vcc -pg 1 -lvl 1 -y 748 -defaultsOSRD
+preplace inst fmc_imageon_vita_color|v_vid_in_axi4s_0 -pg 1 -lvl 3 -y 698 -defaultsOSRD
+preplace inst fmc_imageon_hdmio_rgb|v_cresample_0 -pg 1 -lvl 3 -y 1062 -defaultsOSRD
+preplace inst fmc_imageon_hdmio_rgb|gnd -pg 1 -lvl 3 -y 642 -defaultsOSRD
+preplace inst fmc_imageon_hdmio_rgb|vcc -pg 1 -lvl 1 -y 1042 -defaultsOSRD
+preplace inst fmc_imageon_vita_color|v_cfa_0 -pg 1 -lvl 4 -y 858 -defaultsOSRD
+preplace inst fmc_imageon_hdmio_rgb|v_axi4s_vid_out_0 -pg 1 -lvl 4 -y 1142 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph -pg 1 -lvl 2 -y 480 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y 350 -defaultsOSRD
+preplace inst proc_sys_reset -pg 1 -lvl 1 -y 90 -defaultsOSRD
+preplace netloc fmc_imageon_vita_color|vcc_const 1 1 3 1290 808 1640 848 1930
+preplace netloc fmc_imageon_hdmio_rgb|fmc_imageon_hdmi_out_0_io_hdmio 1 5 1 N
+preplace netloc processing_system7_0_ddr 1 1 4 510J 250 NJ 250 NJ 250 3890J
+preplace netloc proc_sys_reset_interconnect_aresetn 1 1 1 530
+preplace netloc fmc_imageon_hdmio_rgb|v_tc_0_vtiming_out 1 3 1 3210
+preplace netloc fmc_imageon_hdmio_rgb|s_axi_aclk_1 1 0 3 NJ 812 NJ 812 N
+preplace netloc fmc_imageon_hdmio_rgb|processing_system7_0_fclk_clk1 1 0 4 2520J 992 2670 952 2890 982 3190J
+preplace netloc fmc_imageon_hdmio_rgb_hdmio_io 1 4 1 3890J
+preplace netloc processing_system7_0_axi_periph_m04_axi 1 2 1 920
+preplace netloc vita_clk_1 1 0 4 NJ 730 NJ 730 890J 1010 2330J
+preplace netloc proc_sys_reset_peripheral_aresetn 1 1 3 520 690 950 450 2340
+preplace netloc fmc_imageon_vita_color|Conn2 1 0 4 NJ 548 1310J 818 NJ 818 1920
+preplace netloc fmc_imageon_hdmio_rgb|clk_1 1 0 5 2520J 1152 NJ 1152 2900 1152 3220 1012 3500J
+preplace netloc fmc_imageon_iic_0_gpo 1 4 1 NJ
+preplace netloc fmc_imageon_vita_color|clk_fpga_0 1 0 4 1140J 838 1320 838 NJ 838 1920J
+preplace netloc fmc_imageon_hdmio_rgb|video_vtiming_1 1 0 3 NJ 752 NJ 752 N
+preplace netloc processing_system7_0_axi_periph_m03_axi 1 2 1 930
+preplace netloc axi4s_clk_1 1 1 3 510 270 910J 1000 2350J
+preplace netloc fmc_imageon_vita_color|io_vita_1 1 0 2 NJ 608 N
+preplace netloc fmc_imageon_vita_color|v_cfa_0_video_out 1 4 1 2170
+preplace netloc fmc_imageon_vita_color|v_vid_in_axi4s_0_video_out 1 3 1 1930
+preplace netloc fmc_imageon_vita_color|clk_fpga_1 1 0 2 1110J 598 1320
+preplace netloc fmc_imageon_hdmio_rgb|v_axi4s_vid_out_0_vid_io_out 1 4 1 N
+preplace netloc fmc_imageon_vita_color|clk_fpga_2 1 0 4 1130J 828 NJ 828 1650 828 NJ
+preplace netloc fmc_imageon_hdmio_rgb|v_rgb2ycrcb_0_video_out 1 2 1 N
+preplace netloc vita_io_1 1 0 3 NJ 680 NJ 680 940J
+preplace netloc fmc_imageon_hdmio_rgb|gnd_const 1 3 2 3200 1272 3480
+preplace netloc fmc_imageon_vita_color_vita_axi4s_video 1 3 1 2350
+preplace netloc processing_system7_0_axi_periph_m01_axi 1 2 1 940
+preplace netloc fmc_imageon_vita_color|fmc_imageon_vita_receiver_0_vid_io_out 1 2 1 1610
+preplace netloc fmc_imageon_hdmio_rgb|vcc_const 1 1 4 2660 1112 2920 1142 3210 1282 3490
+preplace netloc fmc_imageon_vita_color_vita_vtiming 1 3 1 2320
+preplace netloc processing_system7_0_axi_periph_m02_axi 1 2 2 N 480 2330J
+preplace netloc fmc_imageon_vita_color|v_vid_in_axi4s_0_vtiming_out 1 3 2 N 678 NJ
+preplace netloc fmc_imageon_hdmio_rgb|v_cresample_0_video_out 1 3 1 N
+preplace netloc fmc_imageon_hdmio_rgb|v_axi4s_vid_out_0_vtg_ce 1 2 3 2930 592 NJ 592 3480
+preplace netloc processing_system7_0_fclk_reset0_n 1 0 2 30 180 470
+preplace netloc fmc_imageon_vita_color|video_clk_div4 1 0 3 1120J 798 1280 798 1620J
+preplace netloc fmc_imageon_hdmio_rgb|fmc_imageon_hdmi_in_0_audio_spdif 1 0 5 NJ 1292 NJ 1292 NJ 1292 NJ 1292 3500
+preplace netloc processing_system7_0_fixed_io 1 1 4 NJ 280 NJ 280 NJ 280 NJ
+preplace netloc processing_system7_0_fclk_clk0 1 0 4 20 190 490 700 960 460 2360
+preplace netloc fmc_imageon_hdmio_rgb|Conn1 1 0 3 2520J 722 NJ 722 2900
+preplace netloc fmc_imageon_vita_color|processing_system7_0_axi_periph_m01_axi 1 0 2 NJ 588 N
+preplace netloc processing_system7_0_axi_periph_m00_axi 1 2 2 890 430 2360J
+preplace netloc clk200_1 1 1 2 480 710 900
+preplace netloc fmc_imageon_vita_color|proc_sys_reset_peripheral_aresetn 1 0 4 1100J 818 1300 858 NJ 858 1910J
+preplace netloc fmc_imageon_vita_color|gnd_const 1 1 2 1330 538 1630
+preplace netloc fmc_imageon_hdmio_rgb|hdmio_axi4s_video_1 1 0 2 NJ 732 2660
+preplace netloc fmc_imageon_hdmio_rgb|s_axi_aresetn_1 1 0 3 NJ 792 NJ 792 2910
+preplace netloc fmc_imageon_iic_0_iic 1 4 1 NJ
+preplace netloc processing_system7_0_m_axi_gp0 1 1 1 500
+levelinfo -pg 1 0 250 760 1240 2600 3910 -top 0 -bot 1700
+levelinfo -hier fmc_imageon_hdmio_rgb * 2590 2780 3060 3350 3640 *
+levelinfo -hier fmc_imageon_vita_color * 1210 1470 1780 2050 *
+",
+}
+{
+   da_axi4_cnt: "5",
+   da_board_cnt: "1",
+   da_ps7_cnt: "1",
+}

@@ -1,0 +1,22 @@
+10:38:45 **** Auto Build of configuration Debug for project vita_passthrough_app_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/fmc_imageon_vita_passthrough.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/fmc_imageon_vita_passthrough.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../vita_passthrough_bsp_1/ps7_cortexa9_0/include -MMD -MP -MF"src/fmc_imageon_vita_passthrough.d" -MT"src/fmc_imageon_vita_passthrough.o" -o "src/fmc_imageon_vita_passthrough.o" "../src/fmc_imageon_vita_passthrough.c"
+../src/fmc_imageon_vita_passthrough.c:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/fmc_imageon_vita_passthrough.c:56:0:
+../src/fmc_imageon_vita_passthrough.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+../src/fmc_imageon_vita_passthrough.h:58:25: fatal error: xparameters.h: No such file or directory
+ #include "xparameters.h"
+                         ^
+compilation terminated.
+make: *** [src/fmc_imageon_vita_passthrough.o] Fel 1
+
+10:38:48 Build Finished (took 2s.863ms)
+

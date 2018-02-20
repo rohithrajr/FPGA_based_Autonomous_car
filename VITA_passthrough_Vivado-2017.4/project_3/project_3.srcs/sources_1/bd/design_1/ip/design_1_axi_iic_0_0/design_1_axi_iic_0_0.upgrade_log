@@ -1,0 +1,16 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Fri Feb 16 12:02:59 2018
+| Host         : lkp-s002 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_iic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_iic_0_0 (xilinx.com:ip:axi_iic:2.0) from (Rev. 2) to (Rev. 10)
+

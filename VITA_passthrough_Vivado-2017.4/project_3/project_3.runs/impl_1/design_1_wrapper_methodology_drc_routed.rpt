@@ -1,0 +1,451 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Feb 16 15:10:08 2018
+| Host         : lkp-s002 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -pb design_1_wrapper_methodology_drc_routed.pb -rpx design_1_wrapper_methodology_drc_routed.rpx
+| Design       : design_1_wrapper
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 82
++-----------+----------+------------------------------------------------+------------+
+| Rule      | Severity | Description                                    | Violations |
++-----------+----------+------------------------------------------------+------------+
+| DPIR-1    | Warning  | Asynchronous driver check                      | 32         |
+| TIMING-6  | Warning  | No common primary clock between related clocks | 2          |
+| TIMING-7  | Warning  | No common node between related clocks          | 2          |
+| TIMING-9  | Warning  | Unknown CDC Logic                              | 1          |
+| TIMING-10 | Warning  | Missing property on synchronizer               | 1          |
+| TIMING-18 | Warning  | Missing input or output delay                  | 35         |
+| TIMING-24 | Warning  | Overridden Max delay datapath only             | 9          |
++-----------+----------+------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+DPIR-1#1 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[0].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[0].gen_correct_blocks_v5.the_correct_block/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#2 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[0].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[0].gen_correct_blocks_v5.the_correct_block/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#3 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[0].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[0].gen_correct_blocks_v5.the_correct_block/A[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#4 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[0].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[0].gen_correct_blocks_v5.the_correct_block/A[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#5 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[0].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[0].gen_correct_blocks_v5.the_correct_block/A[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#6 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[0].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[0].gen_correct_blocks_v5.the_correct_block/A[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#7 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[0].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[0].gen_correct_blocks_v5.the_correct_block/A[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#8 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[0].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[0].gen_correct_blocks_v5.the_correct_block/A[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#9 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[1].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[1].gen_correct_blocks_v5.the_correct_block/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#10 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[1].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[1].gen_correct_blocks_v5.the_correct_block/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#11 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[1].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[1].gen_correct_blocks_v5.the_correct_block/A[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#12 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[1].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[1].gen_correct_blocks_v5.the_correct_block/A[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#13 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[1].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[1].gen_correct_blocks_v5.the_correct_block/A[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#14 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[1].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[1].gen_correct_blocks_v5.the_correct_block/A[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#15 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[1].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[1].gen_correct_blocks_v5.the_correct_block/A[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#16 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[1].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[1].gen_correct_blocks_v5.the_correct_block/A[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#17 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[2].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[2].gen_correct_blocks_v5.the_correct_block/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#18 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[2].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[2].gen_correct_blocks_v5.the_correct_block/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#19 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[2].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[2].gen_correct_blocks_v5.the_correct_block/A[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#20 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[2].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[2].gen_correct_blocks_v5.the_correct_block/A[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#21 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[2].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[2].gen_correct_blocks_v5.the_correct_block/A[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#22 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[2].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[2].gen_correct_blocks_v5.the_correct_block/A[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#23 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[2].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[2].gen_correct_blocks_v5.the_correct_block/A[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#24 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[2].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[2].gen_correct_blocks_v5.the_correct_block/A[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#25 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[3].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[3].gen_correct_blocks_v5.the_correct_block/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#26 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[3].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[3].gen_correct_blocks_v5.the_correct_block/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#27 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[3].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[3].gen_correct_blocks_v5.the_correct_block/A[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#28 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[3].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[3].gen_correct_blocks_v5.the_correct_block/A[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#29 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[3].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[3].gen_correct_blocks_v5.the_correct_block/A[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#30 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[3].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[3].gen_correct_blocks_v5.the_correct_block/A[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#31 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[3].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[3].gen_correct_blocks_v5.the_correct_block/A[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#32 Warning
+Asynchronous driver check  
+DSP design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[3].gen_correct_blocks_v5.the_correct_block input pin design_1_i/fmc_imageon_vita_color/fmc_imageon_vita_receiver_0/U0/vita_receiver_v2_0_S00_AXI_inst/VITA_CORE_I/vita_blc/gen_correction.gen_correct_blocks[3].gen_correct_blocks_v5.the_correct_block/A[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+TIMING-6#1 Warning
+No common primary clock between related clocks  
+The clocks CLKDIV_c_0 and vita_clk_1 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks CLKDIV_c_0] -to [get_clocks vita_clk_1]
+Related violations: <none>
+
+TIMING-6#2 Warning
+No common primary clock between related clocks  
+The clocks vita_clk_1 and CLKDIV_c_0 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks vita_clk_1] -to [get_clocks CLKDIV_c_0]
+Related violations: <none>
+
+TIMING-7#1 Warning
+No common node between related clocks  
+The clocks CLKDIV_c_0 and vita_clk_1 are related (timed together) but they have no common node. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks CLKDIV_c_0] -to [get_clocks vita_clk_1]
+Related violations: <none>
+
+TIMING-7#2 Warning
+No common node between related clocks  
+The clocks vita_clk_1 and CLKDIV_c_0 are related (timed together) but they have no common node. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks vita_clk_1] -to [get_clocks CLKDIV_c_0]
+Related violations: <none>
+
+TIMING-9#1 Warning
+Unknown CDC Logic  
+One or more asynchronous Clock Domain Crossing has been detected between 2 clock domains through a set_false_path or a set_clock_groups or set_max_delay -datapath_only constraint but no double-registers logic synchronizer has been found on the side of the capture clock. It is recommended to run report_cdc for a complete and detailed CDC coverage. Please consider using XPM_CDC to avoid Critical severities
+Related violations: <none>
+
+TIMING-10#1 Warning
+Missing property on synchronizer  
+One or more logic synchronizer has been detected between 2 clock domains but the synchronizer does not have the property ASYNC_REG defined on one or both registers. It is recommended to run report_cdc for a complete and detailed CDC coverage
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on fmc_imageon_iic_scl_io relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on fmc_imageon_iic_sda_io relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on vita_io_data_n[0] relative to clock(s) vita_ser_clk
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on vita_io_data_n[1] relative to clock(s) vita_ser_clk
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on vita_io_data_n[2] relative to clock(s) vita_ser_clk
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on vita_io_data_n[3] relative to clock(s) vita_ser_clk
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An input delay is missing on vita_io_data_p[0] relative to clock(s) vita_ser_clk
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An input delay is missing on vita_io_data_p[1] relative to clock(s) vita_ser_clk
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An input delay is missing on vita_io_data_p[2] relative to clock(s) vita_ser_clk
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An input delay is missing on vita_io_data_p[3] relative to clock(s) vita_ser_clk
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An input delay is missing on vita_io_spi_miso relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An input delay is missing on vita_io_sync_n relative to clock(s) vita_ser_clk
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An input delay is missing on vita_io_sync_p relative to clock(s) vita_ser_clk
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An output delay is missing on fmc_imageon_iic_rst_n[0] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An output delay is missing on hdmio_io_clk relative to clock(s) vita_clk
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An output delay is missing on hdmio_io_data[0] relative to clock(s) vita_clk
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An output delay is missing on hdmio_io_data[10] relative to clock(s) vita_clk
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An output delay is missing on hdmio_io_data[11] relative to clock(s) vita_clk
+Related violations: <none>
+
+TIMING-18#19 Warning
+Missing input or output delay  
+An output delay is missing on hdmio_io_data[12] relative to clock(s) vita_clk
+Related violations: <none>
+
+TIMING-18#20 Warning
+Missing input or output delay  
+An output delay is missing on hdmio_io_data[13] relative to clock(s) vita_clk
+Related violations: <none>
+
+TIMING-18#21 Warning
+Missing input or output delay  
+An output delay is missing on hdmio_io_data[14] relative to clock(s) vita_clk
+Related violations: <none>
+
+TIMING-18#22 Warning
+Missing input or output delay  
+An output delay is missing on hdmio_io_data[15] relative to clock(s) vita_clk
+Related violations: <none>
+
+TIMING-18#23 Warning
+Missing input or output delay  
+An output delay is missing on hdmio_io_data[1] relative to clock(s) vita_clk
+Related violations: <none>
+
+TIMING-18#24 Warning
+Missing input or output delay  
+An output delay is missing on hdmio_io_data[2] relative to clock(s) vita_clk
+Related violations: <none>
+
+TIMING-18#25 Warning
+Missing input or output delay  
+An output delay is missing on hdmio_io_data[3] relative to clock(s) vita_clk
+Related violations: <none>
+
+TIMING-18#26 Warning
+Missing input or output delay  
+An output delay is missing on hdmio_io_data[4] relative to clock(s) vita_clk
+Related violations: <none>
+
+TIMING-18#27 Warning
+Missing input or output delay  
+An output delay is missing on hdmio_io_data[5] relative to clock(s) vita_clk
+Related violations: <none>
+
+TIMING-18#28 Warning
+Missing input or output delay  
+An output delay is missing on hdmio_io_data[6] relative to clock(s) vita_clk
+Related violations: <none>
+
+TIMING-18#29 Warning
+Missing input or output delay  
+An output delay is missing on hdmio_io_data[7] relative to clock(s) vita_clk
+Related violations: <none>
+
+TIMING-18#30 Warning
+Missing input or output delay  
+An output delay is missing on hdmio_io_data[8] relative to clock(s) vita_clk
+Related violations: <none>
+
+TIMING-18#31 Warning
+Missing input or output delay  
+An output delay is missing on hdmio_io_data[9] relative to clock(s) vita_clk
+Related violations: <none>
+
+TIMING-18#32 Warning
+Missing input or output delay  
+An output delay is missing on vita_io_reset_n relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#33 Warning
+Missing input or output delay  
+An output delay is missing on vita_io_spi_mosi relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#34 Warning
+Missing input or output delay  
+An output delay is missing on vita_io_spi_sclk relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#35 Warning
+Missing input or output delay  
+An output delay is missing on vita_io_spi_ssel_n relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-24#1 Warning
+Overridden Max delay datapath only  
+A set_clock_groups or a set_false path (see constraint position 10 in the Timing Constraints window in Vivado IDE) between clocks clk_fpga_0 and clk_fpga_1 overrides a set_max_delay -datapath_only (position 12). It is not recommended to override a set_max_delay -datapath_only constraint. Replace the set_clock_groups or set_false_path between clocks with point-to-point set_false_path constraints
+Related violations: <none>
+
+TIMING-24#2 Warning
+Overridden Max delay datapath only  
+A set_clock_groups or a set_false path (see constraint position 10 in the Timing Constraints window in Vivado IDE) between clocks clk_fpga_0 and vita_clk overrides a set_max_delay -datapath_only (position 14). It is not recommended to override a set_max_delay -datapath_only constraint. Replace the set_clock_groups or set_false_path between clocks with point-to-point set_false_path constraints
+Related violations: <none>
+
+TIMING-24#3 Warning
+Overridden Max delay datapath only  
+A set_clock_groups or a set_false path (see constraint position 10 in the Timing Constraints window in Vivado IDE) between clocks clk_fpga_1 and clk_fpga_0 overrides a set_max_delay -datapath_only (position 11). It is not recommended to override a set_max_delay -datapath_only constraint. Replace the set_clock_groups or set_false_path between clocks with point-to-point set_false_path constraints
+Related violations: <none>
+
+TIMING-24#4 Warning
+Overridden Max delay datapath only  
+A set_clock_groups or a set_false path (see constraint position 10 in the Timing Constraints window in Vivado IDE) between clocks clk_fpga_1 and vita_clk overrides a set_max_delay -datapath_only (position 23). It is not recommended to override a set_max_delay -datapath_only constraint. Replace the set_clock_groups or set_false_path between clocks with point-to-point set_false_path constraints
+Related violations: <none>
+
+TIMING-24#5 Warning
+Overridden Max delay datapath only  
+A set_clock_groups or a set_false path (see constraint position 10 in the Timing Constraints window in Vivado IDE) between clocks clk_fpga_1 and vita_clk overrides a set_max_delay -datapath_only (position 25). It is not recommended to override a set_max_delay -datapath_only constraint. Replace the set_clock_groups or set_false_path between clocks with point-to-point set_false_path constraints
+Related violations: <none>
+
+TIMING-24#6 Warning
+Overridden Max delay datapath only  
+A set_clock_groups or a set_false path (see constraint position 10 in the Timing Constraints window in Vivado IDE) between clocks clk_fpga_1 and vita_clk overrides a set_max_delay -datapath_only (position 33). It is not recommended to override a set_max_delay -datapath_only constraint. Replace the set_clock_groups or set_false_path between clocks with point-to-point set_false_path constraints
+Related violations: <none>
+
+TIMING-24#7 Warning
+Overridden Max delay datapath only  
+A set_clock_groups or a set_false path (see constraint position 10 in the Timing Constraints window in Vivado IDE) between clocks vita_clk and clk_fpga_0 overrides a set_max_delay -datapath_only (position 13). It is not recommended to override a set_max_delay -datapath_only constraint. Replace the set_clock_groups or set_false_path between clocks with point-to-point set_false_path constraints
+Related violations: <none>
+
+TIMING-24#8 Warning
+Overridden Max delay datapath only  
+A set_clock_groups or a set_false path (see constraint position 10 in the Timing Constraints window in Vivado IDE) between clocks vita_clk and clk_fpga_1 overrides a set_max_delay -datapath_only (position 27). It is not recommended to override a set_max_delay -datapath_only constraint. Replace the set_clock_groups or set_false_path between clocks with point-to-point set_false_path constraints
+Related violations: <none>
+
+TIMING-24#9 Warning
+Overridden Max delay datapath only  
+A set_clock_groups or a set_false path (see constraint position 10 in the Timing Constraints window in Vivado IDE) between clocks vita_clk and clk_fpga_1 overrides a set_max_delay -datapath_only (position 29). It is not recommended to override a set_max_delay -datapath_only constraint. Replace the set_clock_groups or set_false_path between clocks with point-to-point set_false_path constraints
+Related violations: <none>
+
+

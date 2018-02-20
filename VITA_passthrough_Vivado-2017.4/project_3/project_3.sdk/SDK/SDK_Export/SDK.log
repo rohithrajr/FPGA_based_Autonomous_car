@@ -1,0 +1,145 @@
+11:27:36.567 INFO  - Processing command line option -hwspec C:/Projects/project_2/project_2.sdk/SDK/SDK_Export/hw/design_1.xml. 
+11:35:32.165 INFO  - Saving repository preferences. 
+11:35:32.165 INFO  - Reading in cores from local repositories: 
+		 C:\FMC_IMAGEON\2013_3\avnet_fmc_imageon_cores 
+11:35:32.165 INFO  - Updating libgen.options on all BSP projects. 
+11:35:32.165 INFO  - Cleaning BSP projects in the workspace. 
+11:44:52.192 INFO  - Successfully generated C:\Projects\project_2\project_2.sdk\SDK\SDK_Export\vita_passthrough_app\src\lscript.ld. 
+11:44:52.192 INFO  - Applying linker script to all configurations of project vita_passthrough_app. 
+11:44:52.192 INFO  - Setting rebuild state to true for all configurations of project vita_passthrough_app. 
+12:22:06.778 INFO  - FPGA configured successfully with bitstream "C:/Projects/project_2/project_2.runs/impl_1/design_1_wrapper.bit" 
+12:25:44.804 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:25:44.914 INFO  - PS initialization will be done as it is not done before. 
+12:25:44.914 INFO  - Running PS initialization.... 
+12:25:45.818 INFO  - ps7_init is completed. 
+12:25:45.928 INFO  - ps7_post_config is completed. 
+12:25:45.943 INFO  - PS Initialization is complete. 
+12:27:26.660 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+12:27:26.660 ERROR - Timeout occured while waiting to get reply for command "xdisconnect 64" 
+12:27:26.660 ERROR - Disconnect target failed. 
+12:33:25.347 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Target with ID 64 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setResetOnRun(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+12:33:25.456 ERROR - Disconnect target failed.No Target with ID 64 in the System
+
+ 
+12:33:50.716 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Target with ID 64 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setResetOnRun(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+12:33:50.825 ERROR - Disconnect target failed.No Target with ID 64 in the System
+
+ 
+12:35:47.123 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Target with ID 64 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setResetOnRun(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+12:35:47.232 ERROR - Disconnect target failed.No Target with ID 64 in the System
+
+ 
+12:36:02.723 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+12:36:02.739 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+12:36:02.739 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+12:39:48.204 INFO  - Processing command line option -hwspec C:/Projects/project_2/project_2.sdk/SDK/SDK_Export/hw/design_1.xml. 
+12:40:03.810 INFO  - FPGA configured successfully with bitstream "C:/Projects/project_2/project_2.runs/impl_1/design_1_wrapper.bit" 
+12:40:19.738 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:40:19.847 INFO  - PS initialization will be done as it is not done before. 
+12:40:19.847 INFO  - Running PS initialization.... 
+12:40:20.518 INFO  - ps7_init is completed. 
+12:40:20.627 INFO  - ps7_post_config is completed. 
+12:40:20.736 INFO  - PS Initialization is complete. 
+12:45:42.006 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+12:45:42.007 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+12:51:18.291 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+12:51:18.291 ERROR - Timeout occured while waiting to get reply for command "xdisconnect 64" 
+12:51:18.291 ERROR - Disconnect target failed. 
+12:52:33.466 ERROR - Checking FPGA configuration failed..Lost communication with jtag cable. Run "xdisconnect -cable"
+    and start over again
+
+ 
+12:52:49.751 ERROR - FPGA Configuration failed.Lost communication with jtag cable. Run "xdisconnect -cable"
+    and start over again
+
+ 
+12:53:10.091 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+12:53:10.091 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+12:53:25.593 INFO  - Processing command line option -hwspec C:/Projects/project_2/project_2.sdk/SDK/SDK_Export/hw/design_1.xml. 
+12:53:45.560 INFO  - FPGA configured successfully with bitstream "C:/Projects/project_2/project_2.runs/impl_1/design_1_wrapper.bit" 
+12:54:05.286 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:56:13.360 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:56:16.091 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:57:38.345 INFO  - FPGA configured successfully with bitstream "C:/Projects/project_2/project_2.runs/impl_1/design_1_wrapper.bit" 
+12:58:03.571 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:58:03.681 INFO  - PS initialization will be done as it is not done before. 
+12:58:03.681 INFO  - Running PS initialization.... 
+12:58:04.523 INFO  - ps7_init is completed. 
+12:58:04.632 INFO  - ps7_post_config is completed. 
+12:58:04.741 INFO  - PS Initialization is complete. 
+12:59:41.262 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:59:43.556 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:00:55.256 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:00:56.895 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:01:45.195 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:01:47.099 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:02:29.736 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:02:31.843 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:03:28.603 INFO  - FPGA configured successfully with bitstream "C:/Projects/project_2/project_2.runs/impl_1/design_1_wrapper.bit" 
+13:03:48.399 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:03:50.037 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+13:04:20.067 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:04:22.142 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+13:05:03.939 INFO  - FPGA configured successfully with bitstream "C:/Projects/project_2/project_2.runs/impl_1/design_1_wrapper.bit" 
+13:05:11.084 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+13:05:27.110 INFO  - Processing command line option -hwspec C:/Projects/project_2/project_2.sdk/SDK/SDK_Export/hw/design_1.xml. 
+13:05:52.375 INFO  - FPGA configured successfully with bitstream "C:/Projects/project_2/project_2.runs/impl_1/design_1_wrapper.bit" 
+13:07:14.529 INFO  - FPGA configured successfully with bitstream "C:/Projects/project_2/project_2.runs/impl_1/design_1_wrapper.bit" 
+13:07:54.699 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:07:54.808 INFO  - PS initialization will be done as it is not done before. 
+13:07:54.808 INFO  - Running PS initialization.... 
+13:07:55.651 INFO  - ps7_init is completed. 
+13:07:55.760 INFO  - ps7_post_config is completed. 
+13:07:55.760 INFO  - PS Initialization is complete. 
+13:11:23.586 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+14:18:49.332 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+14:18:49.332 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+14:19:06.930 INFO  - Processing command line option -hwspec C:/Projects/project_2/project_2.sdk/SDK/SDK_Export/hw/design_1.xml. 
+14:21:04.540 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+14:24:17.992 INFO  - Processing command line option -hwspec C:/Projects/project_2/project_2.sdk/SDK/SDK_Export/hw/design_1.xml. 
+14:25:24.424 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+14:32:45.076 INFO  - Processing command line option -hwspec C:/Projects/project_2/project_2.sdk/SDK/SDK_Export/hw/design_1.xml. 
+14:33:27.293 INFO  - FPGA configured successfully with bitstream "C:/Projects/project_2/project_2.runs/impl_1/design_1_wrapper.bit" 
+14:33:45.101 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:33:45.210 INFO  - PS initialization will be done as it is not done before. 
+14:33:45.210 INFO  - Running PS initialization.... 
+14:33:45.881 INFO  - ps7_init is completed. 
+14:33:45.990 INFO  - ps7_post_config is completed. 
+14:33:46.099 INFO  - PS Initialization is complete. 

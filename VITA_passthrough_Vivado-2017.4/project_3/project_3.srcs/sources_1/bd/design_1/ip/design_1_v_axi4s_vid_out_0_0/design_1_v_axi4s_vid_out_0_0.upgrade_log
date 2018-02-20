@@ -1,0 +1,48 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Fri Feb 16 12:04:03 2018
+| Host         : lkp-s002 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_v_axi4s_vid_out_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_v_axi4s_vid_out_0_0 from xilinx.com:ip:v_axi4s_vid_out:3.0 (Rev. 2) to xilinx.com:ip:v_axi4s_vid_out:4.0 (Rev. 1)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'design_1_v_axi4s_vid_out_0_0'. These changes may impact your design.
+
+
+-upgrade has removed port 'empty'
+-upgrade has renamed port 'rst' as 'vid_io_out_reset'
+-upgrade has removed port 'wr_error'
+-upgrade has added port 'overflow'
+-upgrade has added port 'status'
+-upgrade has added port 'underflow'
+
+3. Upgrade messages
+-------------------
+
+Added parameter C_NATIVE_COMPONENT_WIDTH with value 8 (source 'default')
+Added parameter C_HAS_ASYNC_CLK with value true (source 'default')
+Added parameter C_SYNC_LOCK_THRESHOLD with value 4 (source 'default')
+Added parameter C_PIXELS_PER_CLOCK with value 1 (source 'default')
+Added parameter C_ADDR_WIDTH with value 10 (source 'default')
+Removed parameter RAM_ADDR_BITS
+Added parameter C_HYSTERESIS_LEVEL with value 12 (source 'default')
+Removed parameter HYSTERESIS_LEVEL
+Added parameter C_VTG_MASTER_SLAVE with value 0 (source 'default')
+Removed parameter VTG_MASTER_SLAVE
+Renamed interface rst_intf to vid_io_out_reset_intf
+Renamed parameter rst_intf.POLARITY to vid_io_out_reset_intf.POLARITY
+Renamed port rst to vid_io_out_reset
+

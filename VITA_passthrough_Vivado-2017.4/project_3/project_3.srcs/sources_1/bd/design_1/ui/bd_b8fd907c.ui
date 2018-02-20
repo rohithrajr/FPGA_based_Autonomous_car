@@ -1,0 +1,39 @@
+{
+   guistr: "# # String gsaved with Nlview version 6.3.3  2013-08-16 bk=1.2871 VDI=33 GEI=35
+#  -string -flagsOSRD
+preplace port cfa_ctrl -pg 1 -y 30 -defaultsOSRD
+preplace port vita_vtiming -pg 1 -y 330 -defaultsOSRD
+preplace port axi4s_clk -pg 1 -y 100 -defaultsOSRD
+preplace port dpc_ctrl -pg 1 -y 80 -defaultsOSRD
+preplace port vita_clk -pg 1 -y 410 -defaultsOSRD
+preplace port clk200 -pg 1 -y 390 -defaultsOSRD
+preplace port vita_axi4s_video -pg 1 -y 120 -defaultsOSRD
+preplace port axi4lite_clk -pg 1 -y 180 -defaultsOSRD
+preplace port vita_io -pg 1 -y 370 -defaultsOSRD
+preplace port vita_ctrl -pg 1 -y 350 -defaultsOSRD
+preplace portBus axi4lite_aresetn -pg 1 -y 220 -defaultsOSRD
+preplace inst vcc -pg 1 -lvl 1 -y 540 -defaultsOSRD
+preplace inst fmc_imageon_vita_receiver_0 -pg 1 -lvl 2 -y 430 -defaultsOSRD
+preplace inst v_cfa_0 -pg 1 -lvl 3 -y 130 -defaultsOSRD
+preplace inst gnd -pg 1 -lvl 1 -y 460 -defaultsOSRD
+preplace inst v_vid_in_axi4s_0 -pg 1 -lvl 3 -y 350 -defaultsOSRD
+preplace inst v_spc_0 -pg 1 -lvl 2 -y 150 -defaultsOSRD
+preplace netloc Conn1 1 0 2 NJ 80 NJ
+preplace netloc v_vid_in_axi4s_0_video_out 1 1 3 400 10 NJ 10 920
+preplace netloc Conn2 1 0 3 NJ 30 NJ 30 NJ
+preplace netloc proc_sys_reset_peripheral_aresetn 1 0 3 NJ 220 360 280 NJ
+preplace netloc gnd_const 1 1 2 400 300 640
+preplace netloc io_vita_1 1 0 2 NJ 370 NJ
+preplace netloc processing_system7_0_axi_periph_m01_axi 1 0 2 NJ 350 NJ
+preplace netloc fmc_imageon_vita_receiver_0_vid_io_out 1 2 1 650
+preplace netloc v_cfa_0_video_out 1 3 1 NJ
+preplace netloc v_spc_0_video_out 1 2 1 650
+preplace netloc clk_fpga_0 1 0 3 NJ 180 370 270 NJ
+preplace netloc video_clk_div4 1 0 3 NJ 410 390 290 660
+preplace netloc clk_fpga_1 1 0 2 NJ 390 NJ
+preplace netloc v_vid_in_axi4s_0_vtiming_out 1 3 1 NJ
+preplace netloc vcc_const 1 1 2 380 560 680
+preplace netloc clk_fpga_2 1 0 3 NJ 100 360 20 670
+levelinfo -pg 1 190 290 520 800 940
+",
+}
